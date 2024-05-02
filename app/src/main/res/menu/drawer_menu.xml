@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mops"
+        android:title="Мопс" />
+    <item
+        android:id="@+id/german"
+        android:title="Немецкая овчарка" />
+    <item
+        android:id="@+id/shpic"
+        android:title="Шпиц" />
+    <item
+        android:id="@+id/next"
+        android:icon="@drawable/arrow"
+        android:title="Следущая Activity" />
+    <!-- Добавьте дополнительные пункты здесь -->
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navig"
+        android:icon="@drawable/navigation"
+        android:orderInCategory="1"
+        android:title="Навигатор"
+        app:showAsAction = "always"/>
+    <item
+        android:id="@+id/basket"
+        android:icon="@drawable/ball"
+        android:orderInCategory="3"
+        android:title="Баскетбол"
+        app:showAsAction = "ifRoom"/>
+    <item
+        android:id="@+id/mountain"
+        android:icon="@drawable/mount"
+        android:orderInCategory="2"
+        android:title="Горы"
+        app:showAsAction = "never"/>
+</menu>
